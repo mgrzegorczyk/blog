@@ -45,6 +45,8 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo --minify
+      - name: List public folder
+        run: ls -R public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
