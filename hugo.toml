@@ -1,4 +1,4 @@
-baseURL = "https://mgrzegorczyk.github.io/blog/"
+baseURL = "https://mgrzegorczyk.github.io/"
 languageCode = "en-us"
 title = "MG Software Blog"
 theme = "PaperMod"
