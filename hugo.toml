@@ -1,6 +1,6 @@
 baseURL = "https://mgrzegorczyk.github.io/"
 languageCode = "en-us"
-title = "MG Software"
+title = "<MG / Software>"
 theme = "PaperMod"
 
 [pagination]
@@ -24,7 +24,6 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
-  ShowThemeToggleInMenu = true
   DisableSpecial1stPost = true
 
 [menu]
