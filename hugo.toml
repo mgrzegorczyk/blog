@@ -1,21 +1,46 @@
 baseURL = "https://mgrzegorczyk.github.io/"
 languageCode = "en-us"
-title = "MG Software Blog"
+title = "MG Software"
 theme = "PaperMod"
 
-# Syntax highlighting
+[pagination]
+  pagerSize = 3
+
+[taxonomies]
+  tag = "tags"
+
 [markup]
   [markup.highlight]
     style = "dracula"
     guessSyntax = true
     lineNos = true
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
-  ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
-  disableThemeToggle = false
+  ShowThemeToggleInMenu = true
+  DisableSpecial1stPost = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Hashtags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Author"
+    url = "/author/"
+    weight = 3
+
